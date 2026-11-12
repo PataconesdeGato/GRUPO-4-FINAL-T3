@@ -48,6 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MantenedorProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorProducto.Designer.cs">
+      <DependentUpon>MantenedorProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorProductoCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorProductoCategoria.Designer.cs">
+      <DependentUpon>MantenedorProductoCategoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +68,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MantenedorProducto.resx">
+      <DependentUpon>MantenedorProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorProductoCategoria.resx">
+      <DependentUpon>MantenedorProductoCategoria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </EmbeddedResource>

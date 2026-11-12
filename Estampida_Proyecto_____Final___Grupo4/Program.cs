@@ -16,7 +16,7 @@ namespace Estampida_Proyecto_____Final___Grupo4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Mesas());
+            Application.Run(new Menu_Principal());
         }
     }
 }

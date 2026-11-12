@@ -79,6 +79,7 @@
             this.Name = "InformeInsumos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Insumos";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.InformeInsumos_FormClosing);
             this.ResumeLayout(false);
 
         }

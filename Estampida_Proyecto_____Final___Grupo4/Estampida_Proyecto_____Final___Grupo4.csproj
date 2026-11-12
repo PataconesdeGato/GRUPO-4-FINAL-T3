@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Estampida_Proyecto_____Final___Grupo4</RootNamespace>
-    <AssemblyName>Estampida_Proyecto_____Final___Grupo4</AssemblyName>
+    <RootNamespace>Estampida_Proyecto__Final__Grupo4</RootNamespace>
+    <AssemblyName>Estampida_Proyecto__Final__Grupo4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -59,6 +59,7 @@
     </Compile>
     <Compile Include="MantenedorProductoCategoria.Designer.cs">
       <DependentUpon>MantenedorProductoCategoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="InformeInsumos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +90,12 @@
     <Compile Include="PedidoInsumos.Designer.cs">
       <DependentUpon>PedidoInsumos.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReservaMesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservaMesa.Designer.cs">
+      <DependentUpon>ReservaMesa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MantenedorProducto.resx">
@@ -96,17 +103,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorProductoCategoria.resx">
       <DependentUpon>MantenedorProductoCategoria.cs</DependentUpon>
-    <Compile Include="ReservaMesa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ReservaMesa.Designer.cs">
-      <DependentUpon>ReservaMesa.cs</DependentUpon>
-    </Compile>
+    </EmbeddedResource>
     <EmbeddedResource Include="InformeInsumos.resx">
       <DependentUpon>InformeInsumos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mesas.resx">
+      <DependentUpon>Mesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotaInsumos.resx">
+      <DependentUpon>NotaInsumos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PedidoInsumos.resx">
       <DependentUpon>PedidoInsumos.cs</DependentUpon>

@@ -31,6 +31,7 @@
             this.btnDeshabilitar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.flpMesas = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.grpDatos.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,23 +52,45 @@
             this.grpDatos.TabStop = false;
             this.grpDatos.Text = "Datos de la mesa";
             // 
-            // lblId
+            // txtUbicacion
             // 
-            this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(15, 35);
-            this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(19, 13);
-            this.lblId.TabIndex = 0;
-            this.lblId.Text = "Id:";
+            this.txtUbicacion.Location = new System.Drawing.Point(566, 32);
+            this.txtUbicacion.MaxLength = 50;
+            this.txtUbicacion.Name = "txtUbicacion";
+            this.txtUbicacion.Size = new System.Drawing.Size(195, 20);
+            this.txtUbicacion.TabIndex = 7;
             // 
-            // txtId
+            // lblUbicacion
             // 
-            this.txtId.Location = new System.Drawing.Point(45, 32);
-            this.txtId.Name = "txtId";
-            this.txtId.ReadOnly = true;
-            this.txtId.Size = new System.Drawing.Size(70, 20);
-            this.txtId.TabIndex = 1;
-            this.txtId.TabStop = false;
+            this.lblUbicacion.AutoSize = true;
+            this.lblUbicacion.Location = new System.Drawing.Point(505, 35);
+            this.lblUbicacion.Name = "lblUbicacion";
+            this.lblUbicacion.Size = new System.Drawing.Size(58, 13);
+            this.lblUbicacion.TabIndex = 6;
+            this.lblUbicacion.Text = "Ubicación:";
+            // 
+            // txtCapacidad
+            // 
+            this.txtCapacidad.Location = new System.Drawing.Point(385, 32);
+            this.txtCapacidad.Name = "txtCapacidad";
+            this.txtCapacidad.Size = new System.Drawing.Size(90, 20);
+            this.txtCapacidad.TabIndex = 5;
+            // 
+            // lblCapacidad
+            // 
+            this.lblCapacidad.AutoSize = true;
+            this.lblCapacidad.Location = new System.Drawing.Point(320, 35);
+            this.lblCapacidad.Name = "lblCapacidad";
+            this.lblCapacidad.Size = new System.Drawing.Size(61, 13);
+            this.lblCapacidad.TabIndex = 4;
+            this.lblCapacidad.Text = "Capacidad:";
+            // 
+            // txtNumero
+            // 
+            this.txtNumero.Location = new System.Drawing.Point(198, 32);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(90, 20);
+            this.txtNumero.TabIndex = 3;
             // 
             // lblNumero
             // 
@@ -78,45 +101,23 @@
             this.lblNumero.TabIndex = 2;
             this.lblNumero.Text = "Número:";
             // 
-            // txtNumero
+            // txtId
             // 
-            this.txtNumero.Location = new System.Drawing.Point(198, 32);
-            this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(90, 20);
-            this.txtNumero.TabIndex = 3;
+            this.txtId.Location = new System.Drawing.Point(45, 32);
+            this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
+            this.txtId.Size = new System.Drawing.Size(70, 20);
+            this.txtId.TabIndex = 1;
+            this.txtId.TabStop = false;
             // 
-            // lblCapacidad
+            // lblId
             // 
-            this.lblCapacidad.AutoSize = true;
-            this.lblCapacidad.Location = new System.Drawing.Point(320, 35);
-            this.lblCapacidad.Name = "lblCapacidad";
-            this.lblCapacidad.Size = new System.Drawing.Size(59, 13);
-            this.lblCapacidad.TabIndex = 4;
-            this.lblCapacidad.Text = "Capacidad:";
-            // 
-            // txtCapacidad
-            // 
-            this.txtCapacidad.Location = new System.Drawing.Point(385, 32);
-            this.txtCapacidad.Name = "txtCapacidad";
-            this.txtCapacidad.Size = new System.Drawing.Size(90, 20);
-            this.txtCapacidad.TabIndex = 5;
-            // 
-            // lblUbicacion
-            // 
-            this.lblUbicacion.AutoSize = true;
-            this.lblUbicacion.Location = new System.Drawing.Point(505, 35);
-            this.lblUbicacion.Name = "lblUbicacion";
-            this.lblUbicacion.Size = new System.Drawing.Size(55, 13);
-            this.lblUbicacion.TabIndex = 6;
-            this.lblUbicacion.Text = "Ubicación:";
-            // 
-            // txtUbicacion
-            // 
-            this.txtUbicacion.Location = new System.Drawing.Point(566, 32);
-            this.txtUbicacion.MaxLength = 50;
-            this.txtUbicacion.Name = "txtUbicacion";
-            this.txtUbicacion.Size = new System.Drawing.Size(195, 20);
-            this.txtUbicacion.TabIndex = 7;
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(15, 35);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(19, 13);
+            this.lblId.TabIndex = 0;
+            this.lblId.Text = "Id:";
             // 
             // btnAgregar
             // 
@@ -160,8 +161,8 @@
             // 
             // flpMesas
             // 
-            this.flpMesas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.flpMesas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.flpMesas.AutoScroll = true;
             this.flpMesas.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -169,14 +170,25 @@
             this.flpMesas.Location = new System.Drawing.Point(12, 146);
             this.flpMesas.Name = "flpMesas";
             this.flpMesas.Padding = new System.Windows.Forms.Padding(5);
-            this.flpMesas.Size = new System.Drawing.Size(776, 292);
+            this.flpMesas.Size = new System.Drawing.Size(797, 314);
             this.flpMesas.TabIndex = 5;
             // 
-            // FrmMesa
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(698, 102);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(111, 33);
+            this.btnSalir.TabIndex = 6;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // Mesas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(821, 472);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.flpMesas);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnDeshabilitar);
@@ -184,7 +196,7 @@
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.grpDatos);
             this.MinimumSize = new System.Drawing.Size(560, 400);
-            this.Name = "FrmMesa";
+            this.Name = "Mesas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mantenedor de Mesas";
             this.Load += new System.EventHandler(this.FrmMesa_Load);
@@ -210,5 +222,6 @@
         private System.Windows.Forms.Button btnDeshabilitar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.FlowLayoutPanel flpMesas;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

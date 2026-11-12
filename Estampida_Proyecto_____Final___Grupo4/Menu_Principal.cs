@@ -30,5 +30,19 @@ namespace Estampida_Proyecto_____Final___Grupo4
             mantenedorProductoCategoria.Show();
             this.Hide();
         }
+
+        private void btnMantenedorMesas_Click(object sender, EventArgs e)
+        {
+            Mesas mesas = new Mesas();
+            mesas.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            InformeInsumos informeInsumos = new InformeInsumos();
+            informeInsumos.Show();
+            this.Hide();
+        }
     }
 }

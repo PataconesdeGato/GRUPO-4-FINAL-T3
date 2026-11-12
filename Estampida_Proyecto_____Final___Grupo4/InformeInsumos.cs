@@ -25,5 +25,15 @@ namespace Estampida_Proyecto_____Final___Grupo4
         {
             new NotaInsumos().ShowDialog(this);
         }
+
+        private void InformeInsumos_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form Menu_Principal = Application.OpenForms["Menu_Principal"];
+            if (Menu_Principal != null)
+            {
+                Menu_Principal.Show();
+            }
+            
+        }
     }
 }

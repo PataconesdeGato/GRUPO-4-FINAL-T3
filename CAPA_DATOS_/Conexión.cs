@@ -23,8 +23,10 @@ namespace CAPA_DATOS_
             //cn.ConnectionString = "Data Source=DESKTOP-7DBAIV9; Initial Catalog = LaEstampida; Integrated Security=true";
 
             //Conexión de José a la base de datos
-            cn.ConnectionString = "Data Source=DESKTOP-53GBULM; Initial Catalog = LaEstampida; Integrated Security=true";
+            //cn.ConnectionString = "Data Source=DESKTOP-53GBULM; Initial Catalog = LaEstampida; Integrated Security=true";
 
+            //Conexión de Junior a la base de datos
+            cn.ConnectionString = "Data Source=DESKTOP-73SOM12; Initial Catalog = LaEstampida; Integrated Security=true";
             return cn;
         }
     }

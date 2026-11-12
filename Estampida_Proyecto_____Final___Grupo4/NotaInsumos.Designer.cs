@@ -36,6 +36,7 @@
             this.btnNuevoPedido = new System.Windows.Forms.Button();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnRetroceder = new System.Windows.Forms.Button();
             this.grpPedido.SuspendLayout();
             this.grpDetalle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalle)).BeginInit();
@@ -57,49 +58,15 @@
             this.grpPedido.TabStop = false;
             this.grpPedido.Text = "1. Pedido de insumos a vincular";
             // 
-            // lblNumeroPedido
+            // lblEstadoPedidoValor
             // 
-            this.lblNumeroPedido.AutoSize = true;
-            this.lblNumeroPedido.Location = new System.Drawing.Point(15, 30);
-            this.lblNumeroPedido.Name = "lblNumeroPedido";
-            this.lblNumeroPedido.Size = new System.Drawing.Size(97, 13);
-            this.lblNumeroPedido.TabIndex = 0;
-            this.lblNumeroPedido.Text = "Número de pedido *";
-            // 
-            // txtNumeroPedido
-            // 
-            this.txtNumeroPedido.Location = new System.Drawing.Point(125, 27);
-            this.txtNumeroPedido.Name = "txtNumeroPedido";
-            this.txtNumeroPedido.Size = new System.Drawing.Size(100, 20);
-            this.txtNumeroPedido.TabIndex = 1;
-            // 
-            // btnBuscarPedido
-            // 
-            this.btnBuscarPedido.Location = new System.Drawing.Point(235, 25);
-            this.btnBuscarPedido.Name = "btnBuscarPedido";
-            this.btnBuscarPedido.Size = new System.Drawing.Size(80, 24);
-            this.btnBuscarPedido.TabIndex = 2;
-            this.btnBuscarPedido.Text = "Buscar";
-            this.btnBuscarPedido.UseVisualStyleBackColor = true;
-            // 
-            // lblFechaPedido
-            // 
-            this.lblFechaPedido.AutoSize = true;
-            this.lblFechaPedido.Location = new System.Drawing.Point(15, 64);
-            this.lblFechaPedido.Name = "lblFechaPedido";
-            this.lblFechaPedido.Size = new System.Drawing.Size(98, 13);
-            this.lblFechaPedido.TabIndex = 3;
-            this.lblFechaPedido.Text = "Fecha del pedido:";
-            // 
-            // lblFechaPedidoValor
-            // 
-            this.lblFechaPedidoValor.AutoSize = true;
-            this.lblFechaPedidoValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblFechaPedidoValor.Location = new System.Drawing.Point(125, 64);
-            this.lblFechaPedidoValor.Name = "lblFechaPedidoValor";
-            this.lblFechaPedidoValor.Size = new System.Drawing.Size(65, 13);
-            this.lblFechaPedidoValor.TabIndex = 4;
-            this.lblFechaPedidoValor.Text = "dd/mm/aaaa";
+            this.lblEstadoPedidoValor.AutoSize = true;
+            this.lblEstadoPedidoValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblEstadoPedidoValor.Location = new System.Drawing.Point(310, 64);
+            this.lblEstadoPedidoValor.Name = "lblEstadoPedidoValor";
+            this.lblEstadoPedidoValor.Size = new System.Drawing.Size(64, 13);
+            this.lblEstadoPedidoValor.TabIndex = 6;
+            this.lblEstadoPedidoValor.Text = "Pendiente";
             // 
             // lblEstadoPedido
             // 
@@ -110,20 +77,54 @@
             this.lblEstadoPedido.TabIndex = 5;
             this.lblEstadoPedido.Text = "Estado:";
             // 
-            // lblEstadoPedidoValor
+            // lblFechaPedidoValor
             // 
-            this.lblEstadoPedidoValor.AutoSize = true;
-            this.lblEstadoPedidoValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblEstadoPedidoValor.Location = new System.Drawing.Point(310, 64);
-            this.lblEstadoPedidoValor.Name = "lblEstadoPedidoValor";
-            this.lblEstadoPedidoValor.Size = new System.Drawing.Size(58, 13);
-            this.lblEstadoPedidoValor.TabIndex = 6;
-            this.lblEstadoPedidoValor.Text = "Pendiente";
+            this.lblFechaPedidoValor.AutoSize = true;
+            this.lblFechaPedidoValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblFechaPedidoValor.Location = new System.Drawing.Point(125, 64);
+            this.lblFechaPedidoValor.Name = "lblFechaPedidoValor";
+            this.lblFechaPedidoValor.Size = new System.Drawing.Size(79, 13);
+            this.lblFechaPedidoValor.TabIndex = 4;
+            this.lblFechaPedidoValor.Text = "dd/mm/aaaa";
+            // 
+            // lblFechaPedido
+            // 
+            this.lblFechaPedido.AutoSize = true;
+            this.lblFechaPedido.Location = new System.Drawing.Point(15, 64);
+            this.lblFechaPedido.Name = "lblFechaPedido";
+            this.lblFechaPedido.Size = new System.Drawing.Size(92, 13);
+            this.lblFechaPedido.TabIndex = 3;
+            this.lblFechaPedido.Text = "Fecha del pedido:";
+            // 
+            // btnBuscarPedido
+            // 
+            this.btnBuscarPedido.Location = new System.Drawing.Point(235, 25);
+            this.btnBuscarPedido.Name = "btnBuscarPedido";
+            this.btnBuscarPedido.Size = new System.Drawing.Size(80, 24);
+            this.btnBuscarPedido.TabIndex = 2;
+            this.btnBuscarPedido.Text = "Buscar";
+            this.btnBuscarPedido.UseVisualStyleBackColor = true;
+            // 
+            // txtNumeroPedido
+            // 
+            this.txtNumeroPedido.Location = new System.Drawing.Point(125, 27);
+            this.txtNumeroPedido.Name = "txtNumeroPedido";
+            this.txtNumeroPedido.Size = new System.Drawing.Size(100, 20);
+            this.txtNumeroPedido.TabIndex = 1;
+            // 
+            // lblNumeroPedido
+            // 
+            this.lblNumeroPedido.AutoSize = true;
+            this.lblNumeroPedido.Location = new System.Drawing.Point(15, 30);
+            this.lblNumeroPedido.Name = "lblNumeroPedido";
+            this.lblNumeroPedido.Size = new System.Drawing.Size(101, 13);
+            this.lblNumeroPedido.TabIndex = 0;
+            this.lblNumeroPedido.Text = "Número de pedido *";
             // 
             // grpDetalle
             // 
-            this.grpDetalle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.grpDetalle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grpDetalle.Controls.Add(this.dgvDetalle);
             this.grpDetalle.Location = new System.Drawing.Point(12, 115);
@@ -191,7 +192,7 @@
             // 
             // lblMensaje
             // 
-            this.lblMensaje.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            this.lblMensaje.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.lblMensaje.ForeColor = System.Drawing.Color.Red;
@@ -232,11 +233,21 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // FrmNotaInsumos
+            // btnRetroceder
+            // 
+            this.btnRetroceder.Location = new System.Drawing.Point(432, 457);
+            this.btnRetroceder.Name = "btnRetroceder";
+            this.btnRetroceder.Size = new System.Drawing.Size(101, 36);
+            this.btnRetroceder.TabIndex = 6;
+            this.btnRetroceder.Text = "Retroceder";
+            this.btnRetroceder.UseVisualStyleBackColor = true;
+            // 
+            // NotaInsumos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 505);
+            this.Controls.Add(this.btnRetroceder);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.btnNuevoPedido);
@@ -244,7 +255,7 @@
             this.Controls.Add(this.grpDetalle);
             this.Controls.Add(this.grpPedido);
             this.MinimumSize = new System.Drawing.Size(816, 544);
-            this.Name = "FrmNotaInsumos";
+            this.Name = "NotaInsumos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Nota de Insumos";
             this.grpPedido.ResumeLayout(false);
@@ -276,5 +287,6 @@
         private System.Windows.Forms.Button btnNuevoPedido;
         private System.Windows.Forms.Button btnConfirmar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnRetroceder;
     }
 }

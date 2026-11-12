@@ -16,5 +16,12 @@ namespace Estampida_Proyecto_____Final___Grupo4
         {
             InitializeComponent();
         }
+
+        private void btnRetroceder_Click(object sender, EventArgs e)
+        {
+            Menu_Principal Menu_Principal = new Menu_Principal();
+            Menu_Principal.Show();
+            Close();
+        }
     }
 }

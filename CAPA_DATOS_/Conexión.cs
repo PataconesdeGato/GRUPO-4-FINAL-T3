@@ -9,7 +9,7 @@ namespace CAPA_DATOS_
 {
     public class Conexion
     {
-        //patron de Diseño Singleton
+        
         private static readonly Conexion _instancia = new Conexion();
         public static Conexion Instancia
         {
@@ -19,7 +19,14 @@ namespace CAPA_DATOS_
         public SqlConnection Conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source=DESKTOP-7DBAIV9; Initial Catalog = LaEstampida; Integrated Security=true";
+            //Conexión de Daniel a la base de datos
+            //cn.ConnectionString = "Data Source=DESKTOP-7DBAIV9; Initial Catalog = LaEstampida; Integrated Security=true";
+
+            //Conexión de José a la base de datos
+            //cn.ConnectionString = "Data Source=DESKTOP-53GBULM; Initial Catalog = LaEstampida; Integrated Security=true";
+
+            //Conexión de Junior a la base de datos
+            cn.ConnectionString = "Data Source=DESKTOP-73SOM12; Initial Catalog = LaEstampida; Integrated Security=true";
             return cn;
         }
     }

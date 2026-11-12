@@ -8,5 +8,8 @@ namespace CAPA_ENTDIDAD_
 {
     public class ent_Categoria_Productos
     {
+        public int idCategoriaProducto { get; set; }
+        public string nombre { get; set; }
+        public Boolean estado { get; set; }
     }
 }

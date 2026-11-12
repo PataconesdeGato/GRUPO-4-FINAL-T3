@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Estampida_Proyecto_____Final___Grupo4</RootNamespace>
-    <AssemblyName>Estampida_Proyecto_____Final___Grupo4</AssemblyName>
+    <RootNamespace>Estampida_Proyecto__Final__Grupo4</RootNamespace>
+    <AssemblyName>Estampida_Proyecto__Final__Grupo4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,47 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAbastecimiento.cs">
+    <Compile Include="MantenedorProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAbastecimiento.Designer.cs">
-      <DependentUpon>frmAbastecimiento.cs</DependentUpon>
+    <Compile Include="MantenedorProducto.Designer.cs">
+      <DependentUpon>MantenedorProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmIngresoInsumos.cs">
+    <Compile Include="MantenedorProductoCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmIngresoInsumos.Designer.cs">
-      <DependentUpon>frmIngresoInsumos.cs</DependentUpon>
+    <Compile Include="MantenedorProductoCategoria.Designer.cs">
+      <DependentUpon>MantenedorProductoCategoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMantenedorProveedor.cs">
+    <Compile Include="InformeInsumos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMantenedorProveedor.Designer.cs">
-      <DependentUpon>frmMantenedorProveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmModuloSalidaInsumos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmModuloSalidaInsumos.Designer.cs">
-      <DependentUpon>frmModuloSalidaInsumos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmOrdenCompra.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmOrdenCompra.Designer.cs">
-      <DependentUpon>frmOrdenCompra.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSalidaInsumos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSalidaInsumos.Designer.cs">
-      <DependentUpon>frmSalidaInsumos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSolicitudInsumos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSolicitudInsumos.Designer.cs">
-      <DependentUpon>frmSolicitudInsumos.cs</DependentUpon>
+    <Compile Include="InformeInsumos.Designer.cs">
+      <DependentUpon>InformeInsumos.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu_Principal.cs">
       <SubType>Form</SubType>
@@ -96,10 +72,52 @@
     <Compile Include="Menu_Principal.Designer.cs">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mesas.Designer.cs">
+      <DependentUpon>Mesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotaInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotaInsumos.Designer.cs">
+      <DependentUpon>NotaInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PedidoInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PedidoInsumos.Designer.cs">
+      <DependentUpon>PedidoInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReservaMesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservaMesa.Designer.cs">
+      <DependentUpon>ReservaMesa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MantenedorProducto.resx">
+      <DependentUpon>MantenedorProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorProductoCategoria.resx">
+      <DependentUpon>MantenedorProductoCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformeInsumos.resx">
+      <DependentUpon>InformeInsumos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mesas.resx">
+      <DependentUpon>Mesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotaInsumos.resx">
+      <DependentUpon>NotaInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PedidoInsumos.resx">
+      <DependentUpon>PedidoInsumos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

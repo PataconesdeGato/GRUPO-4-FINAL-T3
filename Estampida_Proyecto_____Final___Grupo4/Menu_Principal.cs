@@ -17,22 +17,32 @@ namespace Estampida_Proyecto_____Final___Grupo4
             InitializeComponent();
         }
 
-        private void btnAbastecimiento_Click(object sender, EventArgs e)
+        private void btnMantenedorProducto_Click(object sender, EventArgs e)
         {
-            frmAbastecimiento formulario = new frmAbastecimiento();
-            formulario.ShowDialog();
+            MantenedorProducto mantenedorProducto = new MantenedorProducto();
+            mantenedorProducto.Show();
+            this.Hide();
         }
 
-        private void btnSalidadeInsumo_Click(object sender, EventArgs e)
+        private void button13_Click(object sender, EventArgs e)
         {
-            frmModuloSalidaInsumos formulario = new frmModuloSalidaInsumos();
-            formulario.ShowDialog();
+            MantenedorProductoCategoria mantenedorProductoCategoria = new MantenedorProductoCategoria();
+            mantenedorProductoCategoria.Show();
+            this.Hide();
         }
 
-        private void btnProveedor_Click(object sender, EventArgs e)
+        private void btnMantenedorMesas_Click(object sender, EventArgs e)
         {
-            frmMantenedorProveedor formulario = new frmMantenedorProveedor();
-            formulario.ShowDialog();
+            Mesas mesas = new Mesas();
+            mesas.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            InformeInsumos informeInsumos = new InformeInsumos();
+            informeInsumos.Show();
+            this.Hide();
         }
     }
 }

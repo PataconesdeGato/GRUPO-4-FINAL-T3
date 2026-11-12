@@ -1,0 +1,10 @@
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\bin\Debug\Estampida_Proyecto_____Final___Grupo4.exe.config
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\bin\Debug\Estampida_Proyecto_____Final___Grupo4.exe
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\bin\Debug\Estampida_Proyecto_____Final___Grupo4.pdb
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.Form1.resources
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.Properties.Resources.resources
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.exe
+C:\Users\ASUS\source\repos\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.pdb

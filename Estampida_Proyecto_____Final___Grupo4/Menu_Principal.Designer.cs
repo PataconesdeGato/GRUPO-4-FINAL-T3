@@ -41,17 +41,19 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnControl_Inventario = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.btnControl_Inventario = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btn_Inventario_fisico = new System.Windows.Forms.Button();
             this.Ajuste_Inventario = new System.Windows.Forms.Button();
+            this.btn_Inventario_fisico = new System.Windows.Forms.Button();
+            this.btnInsumos = new System.Windows.Forms.Button();
+            this.btn_Clientes = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -65,7 +67,7 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1061, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1061, 31);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -179,6 +181,15 @@
             this.panel3.Size = new System.Drawing.Size(145, 220);
             this.panel3.TabIndex = 8;
             // 
+            // btnControl_Inventario
+            // 
+            this.btnControl_Inventario.Location = new System.Drawing.Point(3, 162);
+            this.btnControl_Inventario.Name = "btnControl_Inventario";
+            this.btnControl_Inventario.Size = new System.Drawing.Size(134, 53);
+            this.btnControl_Inventario.TabIndex = 11;
+            this.btnControl_Inventario.Text = "Control de Inventario";
+            this.btnControl_Inventario.UseVisualStyleBackColor = true;
+            // 
             // button10
             // 
             this.button10.Location = new System.Drawing.Point(3, 110);
@@ -218,21 +229,14 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn_Clientes);
+            this.groupBox1.Controls.Add(this.btnInsumos);
             this.groupBox1.Controls.Add(this.button11);
             this.groupBox1.Location = new System.Drawing.Point(12, 317);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1037, 249);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            // 
-            // btnControl_Inventario
-            // 
-            this.btnControl_Inventario.Location = new System.Drawing.Point(3, 162);
-            this.btnControl_Inventario.Name = "btnControl_Inventario";
-            this.btnControl_Inventario.Size = new System.Drawing.Size(134, 53);
-            this.btnControl_Inventario.TabIndex = 11;
-            this.btnControl_Inventario.Text = "Control de Inventario";
-            this.btnControl_Inventario.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -253,6 +257,16 @@
             this.panel4.Size = new System.Drawing.Size(173, 116);
             this.panel4.TabIndex = 12;
             // 
+            // Ajuste_Inventario
+            // 
+            this.Ajuste_Inventario.Location = new System.Drawing.Point(1, 53);
+            this.Ajuste_Inventario.Name = "Ajuste_Inventario";
+            this.Ajuste_Inventario.Size = new System.Drawing.Size(170, 46);
+            this.Ajuste_Inventario.TabIndex = 1;
+            this.Ajuste_Inventario.Text = "Ajuste de Inventario";
+            this.Ajuste_Inventario.UseVisualStyleBackColor = true;
+            this.Ajuste_Inventario.Click += new System.EventHandler(this.Ajuste_Inventario_Click);
+            // 
             // btn_Inventario_fisico
             // 
             this.btn_Inventario_fisico.Location = new System.Drawing.Point(0, 3);
@@ -263,14 +277,25 @@
             this.btn_Inventario_fisico.UseVisualStyleBackColor = true;
             this.btn_Inventario_fisico.Click += new System.EventHandler(this.btn_Inventario_fisico_Click);
             // 
-            // Ajuste_Inventario
+            // btnInsumos
             // 
-            this.Ajuste_Inventario.Location = new System.Drawing.Point(1, 53);
-            this.Ajuste_Inventario.Name = "Ajuste_Inventario";
-            this.Ajuste_Inventario.Size = new System.Drawing.Size(170, 46);
-            this.Ajuste_Inventario.TabIndex = 1;
-            this.Ajuste_Inventario.Text = "Ajuste de Inventario";
-            this.Ajuste_Inventario.UseVisualStyleBackColor = true;
+            this.btnInsumos.Location = new System.Drawing.Point(886, 99);
+            this.btnInsumos.Name = "btnInsumos";
+            this.btnInsumos.Size = new System.Drawing.Size(145, 50);
+            this.btnInsumos.TabIndex = 10;
+            this.btnInsumos.Text = "Insumos";
+            this.btnInsumos.UseVisualStyleBackColor = true;
+            this.btnInsumos.Click += new System.EventHandler(this.btnInsumos_Click);
+            // 
+            // btn_Clientes
+            // 
+            this.btn_Clientes.Location = new System.Drawing.Point(644, 78);
+            this.btn_Clientes.Name = "btn_Clientes";
+            this.btn_Clientes.Size = new System.Drawing.Size(135, 46);
+            this.btn_Clientes.TabIndex = 11;
+            this.btn_Clientes.Text = "Clientes";
+            this.btn_Clientes.UseVisualStyleBackColor = true;
+            this.btn_Clientes.Click += new System.EventHandler(this.btn_Clientes_Click);
             // 
             // Menu_Principal
             // 
@@ -328,6 +353,8 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button Ajuste_Inventario;
         private System.Windows.Forms.Button btn_Inventario_fisico;
+        private System.Windows.Forms.Button btnInsumos;
+        private System.Windows.Forms.Button btn_Clientes;
     }
 }
 

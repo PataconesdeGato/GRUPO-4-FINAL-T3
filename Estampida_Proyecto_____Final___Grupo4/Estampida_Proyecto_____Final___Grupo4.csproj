@@ -48,11 +48,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoriaInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoriaInsumos.Designer.cs">
+      <DependentUpon>CategoriaInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Empleado.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Empleado.Designer.cs">
       <DependentUpon>Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAjusteInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjusteInventario.Designer.cs">
+      <DependentUpon>frmAjusteInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Insumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insumos.Designer.cs">
+      <DependentUpon>Insumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario_Fisico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario_Fisico.Designer.cs">
+      <DependentUpon>Inventario_Fisico.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu_Principal.cs">
       <SubType>Form</SubType>
@@ -80,6 +110,9 @@
     <Compile Include="Venta_a_Pedido.Designer.cs">
       <DependentUpon>Venta_a_Pedido.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Insumos.resx">
+      <DependentUpon>Insumos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </EmbeddedResource>

@@ -53,9 +53,36 @@ namespace Estampida_Proyecto_____Final___Grupo4
 
         private void btn_Inventario_fisico_Click(object sender, EventArgs e)
         {
-            Venta_a_Pedido ventana = new Venta_a_Pedido();
+            Inventario_Fisico ventana = new Inventario_Fisico();
+
 
             ventana.Show();
+
+        }
+
+        private void Ajuste_Inventario_Click(object sender, EventArgs e)
+        {
+            frmAjusteInventario ventana = new frmAjusteInventario();
+
+
+            ventana.Show();
+        }
+
+        private void btnInsumos_Click(object sender, EventArgs e)
+        {
+            Insumos ventana = new Insumos();
+
+
+            ventana.Show();
+        }
+
+        private void btn_Clientes_Click(object sender, EventArgs e)
+        {
+            Cliente ventana = new Cliente();
+
+
+            ventana.Show();
+
         }
     }
 }

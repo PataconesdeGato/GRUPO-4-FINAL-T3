@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CAPA_ENTDIDAD_
 {
-    internal class entInsumos
+    public class entInsumos
     {
+        public int idInsumo { get; set; }
+        public string nombreInsumo { get; set; }
+        public decimal stockInsumo { get; set; }
+        public decimal precioInsumo { get; set; }
+        public bool estInsumo { get; set; }
+        public DateTime fecRegInsumo { get; set; }
     }
 }

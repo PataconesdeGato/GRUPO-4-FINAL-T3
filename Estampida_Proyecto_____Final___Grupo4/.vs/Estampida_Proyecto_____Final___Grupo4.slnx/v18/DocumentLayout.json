@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|solutionrelative:preparaci\u00F3n_de_pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|c:\\users\\asus\\onedrive\\documentos\\moanzo\\semana8 moanso\\grupo-4-final-t3\\estampida_proyecto_____final___grupo4\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|solutionrelative:menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|C:\\Users\\ASUS\\OneDrive\\Documentos\\Moanzo\\semana8 moanso\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|solutionrelative:menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|c:\\users\\asus\\onedrive\\documentos\\moanzo\\semana8 moanso\\grupo-4-final-t3\\estampida_proyecto_____final___grupo4\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|solutionrelative:menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|C:\\Users\\ASUS\\OneDrive\\Documentos\\Moanzo\\semana8 moanso\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|solutionrelative:menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Menu_Principal.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Moanzo\\semana8 moanso\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\Menu_Principal.cs",
               "RelativeDocumentMoniker": "Menu_Principal.cs",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Menu_Principal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Moanzo\\semana8 moanso\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\Menu_Principal.cs",
               "RelativeDocumentMoniker": "Menu_Principal.cs",

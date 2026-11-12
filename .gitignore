@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+[Bb]in/
+[Oo]bj/
+
+# Archivos temporales
+*.cache
+*.tmp
+*.log
+
+# Archivos de respaldo
+*.bak
+
+# Archivos de configuración local
+*.rsuser
+*.sln.ide
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user

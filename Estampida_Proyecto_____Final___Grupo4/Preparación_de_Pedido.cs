@@ -16,5 +16,11 @@ namespace Estampida_Proyecto_____Final___Grupo4
         {
             InitializeComponent();
         }
+
+        private void btnRecetas_Click(object sender, EventArgs e)
+        {
+            Receta ventana = new Receta();
+         ventana.Show();
+        }
     }
 }

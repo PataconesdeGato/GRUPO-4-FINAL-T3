@@ -16,5 +16,23 @@ namespace Estampida_Proyecto_____Final___Grupo4
         {
             InitializeComponent();
         }
+
+        private void btnAbastecimiento_Click(object sender, EventArgs e)
+        {
+            frmAbastecimiento formulario = new frmAbastecimiento();
+            formulario.ShowDialog();
+        }
+
+        private void btnSalidadeInsumo_Click(object sender, EventArgs e)
+        {
+            frmModuloSalidaInsumos formulario = new frmModuloSalidaInsumos();
+            formulario.ShowDialog();
+        }
+
+        private void btnProveedor_Click(object sender, EventArgs e)
+        {
+            frmMantenedorProveedor formulario = new frmMantenedorProveedor();
+            formulario.ShowDialog();
+        }
     }
 }

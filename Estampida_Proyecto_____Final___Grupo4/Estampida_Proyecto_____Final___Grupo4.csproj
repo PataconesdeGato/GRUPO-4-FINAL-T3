@@ -48,6 +48,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAbastecimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbastecimiento.Designer.cs">
+      <DependentUpon>frmAbastecimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresoInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresoInsumos.Designer.cs">
+      <DependentUpon>frmIngresoInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenedorProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenedorProveedor.Designer.cs">
+      <DependentUpon>frmMantenedorProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModuloSalidaInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModuloSalidaInsumos.Designer.cs">
+      <DependentUpon>frmModuloSalidaInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrdenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdenCompra.Designer.cs">
+      <DependentUpon>frmOrdenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalidaInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalidaInsumos.Designer.cs">
+      <DependentUpon>frmSalidaInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSolicitudInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSolicitudInsumos.Designer.cs">
+      <DependentUpon>frmSolicitudInsumos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>

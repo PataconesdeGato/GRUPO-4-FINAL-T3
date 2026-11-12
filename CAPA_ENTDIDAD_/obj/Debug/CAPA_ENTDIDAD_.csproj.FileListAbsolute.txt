@@ -4,3 +4,9 @@ C:\Users\ASUS\source\repos\CAPA_ENTDIDAD_\obj\Debug\CAPA_ENTDIDAD_.csproj.Assemb
 C:\Users\ASUS\source\repos\CAPA_ENTDIDAD_\obj\Debug\CAPA_ENTDIDAD_.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\source\repos\CAPA_ENTDIDAD_\obj\Debug\CAPA_ENTDIDAD_.dll
 C:\Users\ASUS\source\repos\CAPA_ENTDIDAD_\obj\Debug\CAPA_ENTDIDAD_.pdb
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_ENTDIDAD_\bin\Debug\CAPA_ENTDIDAD_.dll
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_ENTDIDAD_\bin\Debug\CAPA_ENTDIDAD_.pdb
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_ENTDIDAD_\obj\Debug\CAPA_ENTDIDAD_.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_ENTDIDAD_\obj\Debug\CAPA_ENTDIDAD_.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_ENTDIDAD_\obj\Debug\CAPA_ENTDIDAD_.dll
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_ENTDIDAD_\obj\Debug\CAPA_ENTDIDAD_.pdb

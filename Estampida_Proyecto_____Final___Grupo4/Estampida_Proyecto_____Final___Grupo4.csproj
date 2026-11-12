@@ -54,10 +54,19 @@
     <Compile Include="Menu_Principal.Designer.cs">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Preparación_de_Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preparación_de_Pedido.Designer.cs">
+      <DependentUpon>Preparación_de_Pedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preparación_de_Pedido.resx">
+      <DependentUpon>Preparación_de_Pedido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

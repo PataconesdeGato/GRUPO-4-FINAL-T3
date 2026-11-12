@@ -16,5 +16,14 @@ namespace Estampida_Proyecto_____Final___Grupo4
         {
             InitializeComponent();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            // 1. Crear la instancia de la nueva ventana
+            Preparación_de_Pedido ventana = new Preparación_de_Pedido();
+
+            // 2. Mostrar la ventana
+            ventana.Show();
+        }
     }
 }

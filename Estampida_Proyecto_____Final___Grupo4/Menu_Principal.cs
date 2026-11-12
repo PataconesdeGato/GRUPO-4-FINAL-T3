@@ -16,5 +16,19 @@ namespace Estampida_Proyecto_____Final___Grupo4
         {
             InitializeComponent();
         }
+
+        private void btnMantenedorProducto_Click(object sender, EventArgs e)
+        {
+            MantenedorProducto mantenedorProducto = new MantenedorProducto();
+            mantenedorProducto.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            MantenedorProductoCategoria mantenedorProductoCategoria = new MantenedorProductoCategoria();
+            mantenedorProductoCategoria.Show();
+            this.Hide();
+        }
     }
 }

@@ -1,0 +1,22 @@
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\bin\Debug\CAPA_LOGICA_.dll
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\bin\Debug\CAPA_LOGICA_.pdb
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\bin\Debug\CAPA_DATOS_.dll
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\bin\Debug\CAPA_ENTDIDAD_.dll
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\bin\Debug\CAPA_DATOS_.pdb
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\bin\Debug\CAPA_ENTDIDAD_.pdb
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\obj\Debug\CAPA_LOGICA_.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\obj\Debug\CAPA_LOGICA_.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\obj\Debug\CAPA_LOG.6121BF9B.Up2Date
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\obj\Debug\CAPA_LOGICA_.dll
+C:\Users\ASUS\source\repos\CAPA_LOGICA_\obj\Debug\CAPA_LOGICA_.pdb
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\bin\Debug\CAPA_LOGICA_.dll
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\bin\Debug\CAPA_LOGICA_.pdb
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\bin\Debug\CAPA_DATOS_.dll
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\bin\Debug\CAPA_ENTDIDAD_.dll
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\bin\Debug\CAPA_DATOS_.pdb
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\bin\Debug\CAPA_ENTDIDAD_.pdb
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\obj\Debug\CAPA_LOGICA_.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\obj\Debug\CAPA_LOGICA_.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\obj\Debug\CAPA_LOG.6121BF9B.Up2Date
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\obj\Debug\CAPA_LOGICA_.dll
+C:\Users\ASUS\OneDrive\Documentos\Moanzo\semana8 moanso\GRUPO-4-FINAL-T3\CAPA_LOGICA_\obj\Debug\CAPA_LOGICA_.pdb

@@ -183,5 +183,12 @@ namespace Estampida_Proyecto_____Final___Grupo4
             txtPrecio.Text = "";
             if (cboCategoria.Items.Count > 0) cboCategoria.SelectedIndex = 0;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MantenedorProductoCategoria mantenedorProductoCategoria = new MantenedorProductoCategoria();
+            mantenedorProductoCategoria.Show();
+            this.Hide();
+        }
     }
 }

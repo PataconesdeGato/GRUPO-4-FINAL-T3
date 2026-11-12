@@ -1,12 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CAPA_ENTDIDAD_
 {
-    internal class entInsumos
+    public class entInsumos
     {
+        public int idInsumo { get; set; }
+        public int idCategoriaInsumo { get; set; }
+        public string categoria { get; set; } 
+        public string descripcion { get; set; }
+        public decimal stock { get; set; }
+        public string unidadMedida { get; set; }
+        public Boolean estado { get; set; }
     }
 }

@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CAPA_ENTDIDAD_
 {
-    internal class entRecetas
+    public class entRecetas
     {
+        public int idReceta { get; set; }
+        public int idProducto { get; set; }
+        public string producto { get; set; } 
+        public string descripcion { get; set; }
+        public Boolean estado { get; set; }
     }
 }

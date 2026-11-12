@@ -1,12 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CAPA_ENTDIDAD_
 {
-    internal class entEmpleado
+    public class entEmpleado
     {
+        public int idEmpleado { get; set; }
+        public string dni { get; set; }
+        public string nombres { get; set; }
+        public string cargo { get; set; }
+        public string turno { get; set; }
+        public string telefono { get; set; }
+        public string correo { get; set; }
+        public Boolean estado { get; set; }
     }
 }

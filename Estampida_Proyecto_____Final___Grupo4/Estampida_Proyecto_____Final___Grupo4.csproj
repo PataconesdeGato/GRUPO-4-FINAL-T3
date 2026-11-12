@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Estampida_Proyecto__Final__Grupo4</RootNamespace>
-    <AssemblyName>Estampida_Proyecto__Final__Grupo4</AssemblyName>
+    <RootNamespace>Estampida_Proyecto_____Final___Grupo4</RootNamespace>
+    <AssemblyName>Estampida_Proyecto_____Final___Grupo4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -37,6 +37,7 @@
       <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +49,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados.Designer.cs">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriaInsumos1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoriaInsumos1.Designer.cs">
+      <DependentUpon>CategoriaInsumos1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Insumos1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insumos1.Designer.cs">
+      <DependentUpon>Insumos1.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +123,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Insumos1.resx">
+      <DependentUpon>Insumos1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MantenedorProducto.resx">
       <DependentUpon>MantenedorProducto.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,12 +137,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mesas.resx">
-      <DependentUpon>Mesas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NotaInsumos.resx">
-      <DependentUpon>NotaInsumos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PedidoInsumos.resx">
       <DependentUpon>PedidoInsumos.cs</DependentUpon>

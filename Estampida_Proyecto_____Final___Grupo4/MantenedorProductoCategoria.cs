@@ -127,5 +127,10 @@ namespace Estampida_Proyecto_____Final___Grupo4
             grupBoxDatos.Enabled = false;
             listarCategoria();
         }
+
+        private void btn_Agregar_Categoria_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

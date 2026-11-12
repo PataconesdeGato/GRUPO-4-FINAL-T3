@@ -48,11 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InformeInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformeInsumos.Designer.cs">
+      <DependentUpon>InformeInsumos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu_Principal.Designer.cs">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotaInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotaInsumos.Designer.cs">
+      <DependentUpon>NotaInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PedidoInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PedidoInsumos.Designer.cs">
+      <DependentUpon>PedidoInsumos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,8 +80,14 @@
     <Compile Include="ReservaMesa.Designer.cs">
       <DependentUpon>ReservaMesa.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="InformeInsumos.resx">
+      <DependentUpon>InformeInsumos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PedidoInsumos.resx">
+      <DependentUpon>PedidoInsumos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

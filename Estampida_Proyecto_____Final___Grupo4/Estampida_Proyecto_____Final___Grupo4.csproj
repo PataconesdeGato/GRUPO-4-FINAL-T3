@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="VentaPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentaPedido.Designer.cs">
+      <DependentUpon>VentaPedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VentaPedido.resx">
+      <DependentUpon>VentaPedido.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -16,5 +16,15 @@ namespace Estampida_Proyecto_____Final___Grupo4
         {
             InitializeComponent();
         }
+
+
+        private void btn_Venta_a_Pedido_Click(object sender, EventArgs e)
+        {
+            //VentaPedidoButton
+
+            VentaPedido ventaPedido = new VentaPedido();
+            ventaPedido.Show();
+            this.Hide();
+        }
     }
 }

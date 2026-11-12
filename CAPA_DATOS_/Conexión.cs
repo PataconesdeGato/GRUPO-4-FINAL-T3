@@ -19,7 +19,7 @@ namespace CAPA_DATOS_
         public SqlConnection Conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source=DESKTOP-7DBAIV9; Initial Catalog = LaEstampida; Integrated Security=true";
+            cn.ConnectionString = "Data Source=DESKTOP-73SOM12; Initial Catalog = LaEstampida; Integrated Security=true";
             return cn;
         }
     }

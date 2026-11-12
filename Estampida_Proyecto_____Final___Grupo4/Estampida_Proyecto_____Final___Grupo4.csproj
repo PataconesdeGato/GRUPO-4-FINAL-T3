@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -152,4 +153,160 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Estampida_Proyecto__Final__Grupo4</RootNamespace>
+    <AssemblyName>Estampida_Proyecto__Final__Grupo4</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MantenedorProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorProducto.Designer.cs">
+      <DependentUpon>MantenedorProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorProductoCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorProductoCategoria.Designer.cs">
+      <DependentUpon>MantenedorProductoCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformeInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformeInsumos.Designer.cs">
+      <DependentUpon>InformeInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Principal.Designer.cs">
+      <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mesas.Designer.cs">
+      <DependentUpon>Mesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotaInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotaInsumos.Designer.cs">
+      <DependentUpon>NotaInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PedidoInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PedidoInsumos.Designer.cs">
+      <DependentUpon>PedidoInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReservaMesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservaMesa.Designer.cs">
+      <DependentUpon>ReservaMesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MantenedorProducto.resx">
+      <DependentUpon>MantenedorProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorProductoCategoria.resx">
+      <DependentUpon>MantenedorProductoCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformeInsumos.resx">
+      <DependentUpon>InformeInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Principal.resx">
+      <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mesas.resx">
+      <DependentUpon>Mesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotaInsumos.resx">
+      <DependentUpon>NotaInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PedidoInsumos.resx">
+      <DependentUpon>PedidoInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAPA_ENTDIDAD_\CAPA_ENTDIDAD_.csproj">
+      <Project>{92630437-8e64-43ad-afba-409745e99f8b}</Project>
+      <Name>CAPA_ENTDIDAD_</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAPA_LOGICA_\CAPA_LOGICA_.csproj">
+      <Project>{ce2c3eff-4fa6-4d57-9838-fbd9fd6934b8}</Project>
+      <Name>CAPA_LOGICA_</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+>>>>>>> main
 </Project>

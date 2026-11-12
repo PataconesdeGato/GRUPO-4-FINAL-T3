@@ -3,16 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\ventapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|solutionrelative:ventapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|c:\\users\\junior\\onedrive\\documentos\\github\\grupo-4-final-t3\\estampida_proyecto_____final___grupo4\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|solutionrelative:menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|c:\\users\\junior\\onedrive\\documentos\\github\\grupo-4-final-t3\\estampida_proyecto_____final___grupo4\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|solutionrelative:menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE2C3EFF-4FA6-4D57-9838-FBD9FD6934B8}|..\\CAPA_LOGICA_\\CAPA_LOGICA_.csproj|c:\\users\\junior\\onedrive\\documentos\\github\\grupo-4-final-t3\\capa_logica_\\logproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|c:\\users\\junior\\onedrive\\documentos\\github\\grupo-4-final-t3\\estampida_proyecto_____final___grupo4\\ventapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D6A43F51-3E36-43D6-9B64-8FD9A8D86739}|Estampida_Proyecto_____Final___Grupo4.csproj|solutionrelative:ventapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{81FDE2BF-A8D1-4543-9AD8-08107D47E8FC}|..\\CAPA_DATOS_\\CAPA_DATOS_.csproj|c:\\users\\junior\\onedrive\\documentos\\github\\grupo-4-final-t3\\capa_datos_\\dat_categoria_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81FDE2BF-A8D1-4543-9AD8-08107D47E8FC}|..\\CAPA_DATOS_\\CAPA_DATOS_.csproj|c:\\users\\junior\\onedrive\\documentos\\github\\grupo-4-final-t3\\capa_datos_\\datproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92630437-8E64-43AD-AFBA-409745E99F8B}|..\\CAPA_ENTDIDAD_\\CAPA_ENTDIDAD_.csproj|c:\\users\\junior\\onedrive\\documentos\\github\\grupo-4-final-t3\\capa_entdidad_\\ent_categoria_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92630437-8E64-43AD-AFBA-409745E99F8B}|..\\CAPA_ENTDIDAD_\\CAPA_ENTDIDAD_.csproj|c:\\users\\junior\\onedrive\\documentos\\github\\grupo-4-final-t3\\capa_entdidad_\\entproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81FDE2BF-A8D1-4543-9AD8-08107D47E8FC}|..\\CAPA_DATOS_\\CAPA_DATOS_.csproj|c:\\users\\junior\\onedrive\\documentos\\github\\grupo-4-final-t3\\capa_datos_\\conexi\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +36,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,6 +49,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "logProductos.cs",
+              "DocumentMoniker": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_LOGICA_\\logProductos.cs",
+              "RelativeDocumentMoniker": "..\\CAPA_LOGICA_\\logProductos.cs",
+              "ToolTip": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_LOGICA_\\logProductos.cs",
+              "RelativeToolTip": "..\\CAPA_LOGICA_\\logProductos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T06:05:33.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dat_Categoria_Productos.cs",
+              "DocumentMoniker": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_DATOS_\\dat_Categoria_Productos.cs",
+              "RelativeDocumentMoniker": "..\\CAPA_DATOS_\\dat_Categoria_Productos.cs",
+              "ToolTip": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_DATOS_\\dat_Categoria_Productos.cs",
+              "RelativeToolTip": "..\\CAPA_DATOS_\\dat_Categoria_Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T06:03:10.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ent_Categoria_Productos.cs",
+              "DocumentMoniker": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_ENTDIDAD_\\ent_Categoria_Productos.cs",
+              "RelativeDocumentMoniker": "..\\CAPA_ENTDIDAD_\\ent_Categoria_Productos.cs",
+              "ToolTip": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_ENTDIDAD_\\ent_Categoria_Productos.cs",
+              "RelativeToolTip": "..\\CAPA_ENTDIDAD_\\ent_Categoria_Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T05:58:33.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "entProductos.cs",
+              "DocumentMoniker": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_ENTDIDAD_\\entProductos.cs",
+              "RelativeDocumentMoniker": "..\\CAPA_ENTDIDAD_\\entProductos.cs",
+              "ToolTip": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_ENTDIDAD_\\entProductos.cs",
+              "RelativeToolTip": "..\\CAPA_ENTDIDAD_\\entProductos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T05:57:56.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "datProductos.cs",
+              "DocumentMoniker": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_DATOS_\\datProductos.cs",
+              "RelativeDocumentMoniker": "..\\CAPA_DATOS_\\datProductos.cs",
+              "ToolTip": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_DATOS_\\datProductos.cs",
+              "RelativeToolTip": "..\\CAPA_DATOS_\\datProductos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T05:57:03.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Conexi\u00F3n.cs",
+              "DocumentMoniker": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_DATOS_\\Conexi\u00F3n.cs",
+              "RelativeDocumentMoniker": "..\\CAPA_DATOS_\\Conexi\u00F3n.cs",
+              "ToolTip": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\CAPA_DATOS_\\Conexi\u00F3n.cs",
+              "RelativeToolTip": "..\\CAPA_DATOS_\\Conexi\u00F3n.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T05:55:48.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "VentaPedido.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\VentaPedido.cs",
               "RelativeDocumentMoniker": "VentaPedido.cs",
@@ -47,19 +139,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Menu_Principal.cs",
-              "DocumentMoniker": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\Menu_Principal.cs",
-              "RelativeDocumentMoniker": "Menu_Principal.cs",
-              "ToolTip": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\Menu_Principal.cs",
-              "RelativeToolTip": "Menu_Principal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-12T05:27:10.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Menu_Principal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JUNIOR\\OneDrive\\Documentos\\GitHub\\GRUPO-4-FINAL-T3\\Estampida_Proyecto_____Final___Grupo4\\Menu_Principal.cs",
               "RelativeDocumentMoniker": "Menu_Principal.cs",

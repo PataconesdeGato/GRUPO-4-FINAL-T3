@@ -30,3 +30,5 @@ C:\Users\JUNIOR\OneDrive\Documentos\GitHub\GRUPO-4-FINAL-T3\Estampida_Proyecto__
 C:\Users\JUNIOR\OneDrive\Documentos\GitHub\GRUPO-4-FINAL-T3\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.exe
 C:\Users\JUNIOR\OneDrive\Documentos\GitHub\GRUPO-4-FINAL-T3\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.pdb
 C:\Users\JUNIOR\OneDrive\Documentos\GitHub\GRUPO-4-FINAL-T3\Estampida_Proyecto_____Final___Grupo4\obj\Debug\Estampida_Proyecto_____Final___Grupo4.VentaPedido.resources
+C:\Users\JUNIOR\OneDrive\Documentos\GitHub\GRUPO-4-FINAL-T3\Estampida_Proyecto_____Final___Grupo4\bin\Debug\CAPA_DATOS_.dll
+C:\Users\JUNIOR\OneDrive\Documentos\GitHub\GRUPO-4-FINAL-T3\Estampida_Proyecto_____Final___Grupo4\bin\Debug\CAPA_DATOS_.pdb

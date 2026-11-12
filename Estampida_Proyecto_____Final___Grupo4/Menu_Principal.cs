@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace Estampida_Proyecto_____Final___Grupo4
 {
     public partial class Menu_Principal : Form
@@ -18,33 +16,27 @@ namespace Estampida_Proyecto_____Final___Grupo4
         {
             InitializeComponent();
         }
-        //preparacion de Pedido
+
+        // --- BOTONES De RAMA ---
+
+        // Preparacion de Pedido
         private void button7_Click(object sender, EventArgs e)
         {
-     
-            Preparación_de_Pedido ventana = new Preparación_de_Pedido();
-
-          
-            ventana.Show();
+            // Preparación_de_Pedido ventana = new Preparación_de_Pedido();
+            // ventana.Show();
         }
 
-   
-        //Mantenedor Empleado
+        // Mantenedor Empleado
         private void button11_Click_1(object sender, EventArgs e)
         {
-            Empleado ventana = new Empleado();
-
-       
-            ventana.Show();
+             Empleados ventana = new Empleados();
+             ventana.Show();
         }
 
         private void btn_Venta_a_Pedido_Click(object sender, EventArgs e)
         {
-
-            Venta_a_Pedido ventana = new Venta_a_Pedido();
-
-
-            ventana.Show();
+             //Venta_a_Pedido ventana = new Venta_a_Pedido();
+            //ventana.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -54,58 +46,29 @@ namespace Estampida_Proyecto_____Final___Grupo4
 
         private void btn_Inventario_fisico_Click(object sender, EventArgs e)
         {
-            Inventario_Fisico ventana = new Inventario_Fisico();
-
-
-            ventana.Show();
-
+            // Inventario_Fisico ventana = new Inventario_Fisico();
+            // ventana.Show();
         }
 
         private void Ajuste_Inventario_Click(object sender, EventArgs e)
         {
-            frmAjusteInventario ventana = new frmAjusteInventario();
-
-
-            ventana.Show();
+            // frmAjusteInventario ventana = new frmAjusteInventario();
+            // ventana.Show();
         }
 
         private void btnInsumos_Click(object sender, EventArgs e)
         {
-            Insumos ventana = new Insumos();
-
-
-            ventana.Show();
+            Insumos1 ventana = new Insumos1();
+             ventana.Show();
         }
 
         private void btn_Clientes_Click(object sender, EventArgs e)
         {
-            Cliente ventana = new Cliente();
-
-
-            ventana.Show();
-
+             Clientes ventana = new Clientes();
+             ventana.Show();
         }
-    }
-}
-=======
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace Estampida_Proyecto_____Final___Grupo4
-{
-    public partial class Menu_Principal : Form
-    {
-        public Menu_Principal()
-        {
-            InitializeComponent();
-        }
+        // --- BOTONES DE LA RAMA MAIN ---
 
         private void btnMantenedorProducto_Click(object sender, EventArgs e)
         {
@@ -134,6 +97,35 @@ namespace Estampida_Proyecto_____Final___Grupo4
             informeInsumos.Show();
             this.Hide();
         }
+
+        private void btnProducto_Click(object sender, EventArgs e)
+        {
+            MantenedorProducto mantenedorProducto = new MantenedorProducto();
+            mantenedorProducto.Show();
+            this.Hide();
+        }
+
+        private void btn_Mesas_Click(object sender, EventArgs e)
+        {
+            Mesas mesas = new Mesas();
+            mesas.Show();
+            this.Hide();
+        }
+
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+            InformeInsumos mesas = new InformeInsumos();
+            mesas.Show();
+            this.Hide();
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ReservaMesa mesas = new ReservaMesa();
+            mesas.Show();
+            this.Hide();
+
+        }
     }
 }
->>>>>>> main
